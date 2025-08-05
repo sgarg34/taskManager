@@ -4,15 +4,62 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43823f58-8868-4d82-88ae-036382b191eb" name="Changes" comment="" />
+    <list default="true" id="43823f58-8868-4d82-88ae-036382b191eb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/TaskManagerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/dto/TaskRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/dto/TaskResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/entity/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/enums/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/enums/TaskStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/exception/TaskNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/taskmanager/taskmanager/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/TaskManagerApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/controller/TaskController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/dto/TaskRequestDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/dto/TaskResponseDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/entity/Task.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/enums/Priority.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/enums/TaskStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/exception/TaskNotFoundException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/repository/TaskRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/taskmanager/service/TaskService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "sgarg34"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/sgarg34/taskManager",
+    "accountId": "3245d516-5917-47c0-9618-723f0648711f"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="30rCEeelM27uCOeXmA5lgYW5a6X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,6 +69,7 @@
   "keyToString": {
     "Application.TaskManagerApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Rebasing main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/sudhanshugarg/Desktop/taskmanager-springboot",
     "project.structure.last.edited": "Project",
