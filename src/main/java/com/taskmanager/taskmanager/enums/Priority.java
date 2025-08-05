@@ -1,4 +1,4 @@
-package com.taskmanager.enums;
+package com.taskmanager.taskmanager.enums;
 
 public enum Priority {
     LOW, MEDIUM, HIGH

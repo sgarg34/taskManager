@@ -1,11 +1,12 @@
-package com.taskmanager.service;
+package com.taskmanager.taskmanager.service;
 
-import com.taskmanager.dto.TaskRequestDto;
-import com.taskmanager.dto.TaskResponseDto;
-import com.taskmanager.entity.Task;
-import com.taskmanager.enums.TaskStatus;
-import com.taskmanager.exception.TaskNotFoundException;
-import com.taskmanager.repository.TaskRepository;
+
+import com.taskmanager.taskmanager.entity.Task;
+import com.taskmanager.taskmanager.enums.TaskStatus;
+import com.taskmanager.taskmanager.exception.TaskNotFoundException;
+import com.taskmanager.taskmanager.repository.TaskRepository;
+import com.taskmanager.taskmanager.dto.TaskRequestDto;
+import com.taskmanager.taskmanager.dto.TaskResponseDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,31 +20,31 @@ public class TaskService {
 
     public TaskResponseDto createTask(TaskRequestDto request) {
         Task task = new Task();
-        task.setTitle(request.title);
-        task.setDescription(request.description);
-        task.setStatus(request.status);
-        task.setPriority(request.priority);
-        task.setDueDate(request.dueDate);
+        task.setTitle(request.getTitle());
+        task.setDescription(request.getDescription());
+        task.setStatus(request.getStatus());
+        task.setPriority(request.getPriority());
+        task.setDueDate(request.getDueDate());
         Task saved = repository.save(task);
         TaskResponseDto response = new TaskResponseDto();
-        response.id = saved.getId();
-        response.title = saved.getTitle();
-        response.description = saved.getDescription();
-        response.status = saved.getStatus();
-        response.priority = saved.getPriority();
-        response.dueDate = saved.getDueDate();
+        response.setId(saved.getId());
+        response.setTitle(saved.getTitle());
+        response.setDescription(saved.getDescription());
+        response.setStatus(saved.getStatus());
+        response.setPriority(saved.getPriority());
+        response.setDueDate(saved.getDueDate());
         return response;
     }
 
     public TaskResponseDto getTask(Long id) {
         Task task = repository.findById(id).orElseThrow(() -> new TaskNotFoundException("Task not found"));
         TaskResponseDto response = new TaskResponseDto();
-        response.id = task.getId();
-        response.title = task.getTitle();
-        response.description = task.getDescription();
-        response.status = task.getStatus();
-        response.priority = task.getPriority();
-        response.dueDate = task.getDueDate();
+        response.setId(task.getId());
+        response.setTitle(task.getTitle());
+        response.setDescription(task.getDescription());
+        response.setStatus(task.getStatus());
+        response.setPriority(task.getPriority());
+        response.setDueDate(task.getDueDate());
         return response;
     }
 }

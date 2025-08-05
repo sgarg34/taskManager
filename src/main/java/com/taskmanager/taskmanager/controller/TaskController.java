@@ -1,8 +1,9 @@
-package com.taskmanager.controller;
+package com.taskmanager.taskmanager.controller;
 
-import com.taskmanager.dto.TaskRequestDto;
-import com.taskmanager.dto.TaskResponseDto;
-import com.taskmanager.service.TaskService;
+
+import com.taskmanager.taskmanager.dto.TaskRequestDto;
+import com.taskmanager.taskmanager.dto.TaskResponseDto;
+import com.taskmanager.taskmanager.service.TaskService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
